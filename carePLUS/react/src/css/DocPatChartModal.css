@@ -1,0 +1,23 @@
+#docPatInfo-modal {
+    padding: 10px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+
+.docPatInfo {
+    font-size:15px;
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+ }
+.docPatInfo tbody tr th {
+    padding-bottom: 7px;
+}
+
+.longTdHidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 170px;
+    white-space: nowrap;
+}

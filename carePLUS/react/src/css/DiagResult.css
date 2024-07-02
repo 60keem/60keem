@@ -1,0 +1,376 @@
+.sboxHeader {
+    font-family: 'TheJamsil54Medium';
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+#thirdRow {
+    display: flex;
+}
+
+/* 박스 스타일 */
+#diagRecordBox{
+    background-color: #FFFDF8;
+    margin-top: 20px;
+    width: 490px;
+    /* height: 250px; */
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px 1px lightgray;
+    padding: 5px;
+}
+
+#addDiagRecordBox{
+    background-color: #FFFDF8;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 730px;
+    /* height: 250px; */
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px 1px lightgray;
+    padding: 5px;
+}
+
+#toNurseBox{
+    background-color: #FFFDF8;
+    margin-right: -20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 330px;
+    /* height: 250px; */
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px 1px lightgray;
+    padding: 5px;
+}
+
+#prescriptionBox{
+    position: absolute;
+    background-color: #FFFDF8;
+    margin-top: 20px;
+    width: 1590px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 3px 1px lightgray;
+    padding: 5px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+
+/* 진단 박스 내용 스타일 */
+.selectStyle {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: #FFFEFB;
+    color: #666;
+}
+.selectStyle:focus {
+    outline: none;
+}
+
+.textareaStyle {
+    width: 75%;
+    height: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: #FFFEFB;
+    color: #666;
+    resize: none;  /* 크기 키우는 거 비활성화 */
+}
+.textareaStyle:focus {
+    outline: none;
+}
+
+.labelStyle {
+    margin-right: 20px;
+}
+
+
+/* 추가 진단 뱍스 내용 스타일 */
+.inputBoxStyle {
+    margin-right: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: #FFFEFB;
+    
+}
+.inputBoxStyle:focus {
+    outline: none;
+}
+
+.addDiagTextareaStyle {
+    width: 87%;
+    height: 110px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: #FFFEFB;
+    color: #666;
+    resize: none;
+}
+.addDiagTextareaStyle:focus {
+    outline: none;
+}
+
+.checkboxStyle{
+    margin-right: 145px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.radioStyle {
+    margin-right: 15px;
+}
+
+
+/* 처방 박스 내용 스타일 */
+.prescriptionlist {
+    font-size:15px;
+    width: 1400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.preInputStyle {
+    width: 180px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    background-color: #FFFEFB;
+}
+.preInputStyle:focus {
+    outline: none;
+}
+.preInputStyle[readonly] {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.delImgStyle {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+
+/* 병명 선택 모달 스타일 */
+.modalTitle .modal-title {
+    color: #427889;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.searchbar{
+    margin-top: 20px;
+    width: 460px;
+    height: 40px;
+    box-shadow: 1px 1px 2px 0 lightgray;
+    border-radius: 20px;
+    color: #233FA3;
+    font-weight: bold;
+    
+}
+
+.staticSearchbar {
+    z-index: 1;
+    width: 540px;
+    background-color: #FFFDF8;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+
+.medKeywordSort {
+    background-color: #f7f7f7;
+    color: #233FA3;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 8px;
+    border: none;
+    width: 45px;
+    appearance: none;
+    padding: 0px 10px;
+}
+.medKeywordSort:focus {
+    outline: none;
+}
+#keyword:focus {
+    outline: none;
+}
+
+.diagModalBodyStyle {
+    min-height: 700px;
+    max-height: 700px;
+    overflow-y: auto;
+    margin-right: 10px;
+}
+
+.diagModalBodyStyle.modal-body {
+    padding: 0;
+}
+
+.trContent:hover {
+    background-color: #f0f0f0;
+}
+
+.trTitle {
+    z-index: 0;
+    position: sticky;
+    top: 60px;
+    background-color: var(--bs-modal-bg);
+}
+
+.docSearchButton{
+    margin-top:5px;
+    margin-right:10px;
+    background-color: transparent;
+    border: none;
+    width:28px;
+    height:30px;
+    background-image: url('/public/img/adsearch.png');
+    float: right;
+}
+
+
+/* 병명선택 모달 (자동완성)스타일 */
+.diagAutoCompleteDrop {
+    margin-left: 30px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    width: 65%;
+}
+
+.diagAutoCompleteItem {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.diagAutoCompleteItem:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* 약품 모달 스타일 */
+
+.modal-content {
+    min-height: 775px;
+    background-color: #FFFDF8;
+}
+
+.medSearchbar {
+    float: left;
+    margin-top: 20px;
+    height: 40px;
+    box-shadow: 1px 1px 2px 0 lightgray;
+    border-radius: 20px;
+    color: #233FA3;
+    font-weight: bold;
+    background-color: #f7f7f7;
+}
+
+.medStaticSearchbar {
+    z-index: 1;
+    width: 1500px;
+    background-color: #FFFDF8;
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+
+.medicineContainer {
+    width: 70%;
+    margin: 20px;
+    box-shadow: 0px 1px 3px 1px lightgray;
+    border-radius: 10px;
+    background-color: white;
+    min-height: 600px;
+}
+
+.starMedicineContainer {
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px lightgray;
+    background-color: #f7f7f7;
+    width: 26%;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.trContent td {
+    padding: 5px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 130px;
+}
+
+.favHeaderStyle {
+    font-weight: bold;
+    padding-bottom: 10px;
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.favMedicineTag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .medTag {
+    background-color: rgba(87,180,220, 0.3);
+    color: #438faf;
+    border-radius: 20px;
+    padding: 2px 6px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+
+
+  /* 병명선택 모달 (자동완성)스타일 */
+.medAutoCompleteDrop {
+    margin-left: 160px;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    width: 32%;
+}
+
+.medAutoCompleteItem {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.medAutoCompleteItem:hover {
+    background-color: #f0f0f0;
+}
+
+
+
+
+/* 공통 부분 조금 수정해보기...*/
+#boxIcon {
+    height: 30px;
+    margin-left: 25px;
+}

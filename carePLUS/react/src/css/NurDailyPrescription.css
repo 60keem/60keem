@@ -1,0 +1,170 @@
+.leftBox1{
+    display: flex;
+    float: left;
+    background-color: #FFFDF8;
+    width: 250px;
+    height:960px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 lightgray;
+}
+#sboxHeader {
+    padding-top: 15px;
+    font-family: 'TheJamsil54Medium';
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.presDailyExp{
+    display:flex;
+    margin-left:30px;
+}
+.prescContent{
+    margin-left: 15px;
+}
+#presX{
+    width: 60px;
+    height:20px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#prescSelectText{
+    display:inline;
+    margin-top:2px;
+    position: absolute;
+    width:140px;
+    text-align: center;
+}
+
+#presX1{
+    width: 140px;
+    height:20px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    color:white;
+}
+.labelL{
+    display: block;
+    width:140px;
+    height: 20px;
+    border:none;
+    margin-bottom: 5px;
+}
+
+.radio-checked{
+    box-shadow: 0 0 0 2px red;
+
+}
+
+
+.PrescModalbox{
+    position: absolute;
+    margin-top:10px;
+    width:170px;
+    height:220px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 lightgray;
+    border-radius: 10px;
+}
+
+#presXV{
+    width: 140px;
+    height:20px;
+    background-color: #609E66;
+    text-align: center;
+}
+
+#presXVX{
+    width: 140px;
+    height:20px;
+    background-color: red;
+    text-align: center;
+}
+
+
+#presO{
+    width: 80px;
+    height:20px;
+    background-color: #F7CE7E;
+    text-align: center;
+}
+
+
+.rightBox1{
+    position: relative;
+    left:-39px;
+    padding-top:30px;
+    float:right;
+    border-radius: 10px;
+    background-color: #FFFDF8;
+    width: 1300px;
+    height:960px;
+    box-shadow: 0 1px 2px 0 lightgray;
+}
+
+.presList{
+    font-size:15px;
+     width:200px;
+     text-align: center;
+     color: black;
+ }
+
+ .presList1{
+    font-size:15px;
+     width: 1200px;
+     text-align: center;
+     color: black;
+     margin: 0 auto;
+ }
+ 
+ #prescSelect{
+    background-color: gray;
+    width:80px;
+    height:50px;
+ }
+ #prescSelect2{
+    background-color: #F7CE7E;
+    width:50px;
+    height:50px;
+ }
+.NDsearchbar{
+    margin:20px;
+    position: relative;
+    background-color: #f7f7f7;
+    /* float: right; */
+    width: 210px;
+    height:25px;
+    box-shadow: 1px 1px 2px 0 lightgray;
+    border-radius: 20px;
+    color: #233FA3;
+    font-weight: bold;
+}
+
+#keyword{
+    border:none;
+    margin-top: 3px;
+    margin-left: 5px;
+    width:140px;
+    font-size:15px;
+
+}
+
+
+#searchButton{
+    margin-top:-1px;
+    margin-left:5px;
+    background-color: transparent;
+    border: none;
+    width:28px;
+    height:30px;
+    background-image: url('/public/img/adsearch.png');
+    float: right;
+}
+
+#searchButton1{
+    display:none;
+}
